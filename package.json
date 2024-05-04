@@ -1,0 +1,30 @@
+{
+  "name": "customer_module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MohitVaghela/customer_module.git"
+  },
+  "author": "mohit vaghela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohitVaghela/customer_module/issues"
+  },
+  "homepage": "https://github.com/MohitVaghela/customer_module#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.3",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.11.0"
+  }
+}
